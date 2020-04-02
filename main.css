@@ -1,0 +1,78 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: #209781;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link    { color: #209781; text-decoration: none; }
+a:visited { color: #209781; }
+a:active  { color: #209781; }
+a:hover   { color: #E9B64A; }
+
+
+h1{
+   font-size: 64px;
+   font-weight: 400;
+   text-align: center;
+   letter-spacing: 5px;
+   margin-top: 20px;
+   margin-bottom: 0;
+   
+}
+
+p{
+  text-align: center;
+  font-size: 34px;
+   margin-top: 5px;
+   margin-bottom: 25px;
+   letter-spacing: 3px;
+}
+.board{
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+.card{
+   width: 125px;
+   height: 125px;
+   margin: 3px;
+   display: inline-block;
+   background-color: aqua;
+   border:4px solid #aaa   ;
+   cursor: pointer;
+   filter: brightness(70%);
+   transition: all .3s ease-in-out;
+}
+
+.card:hover{
+   
+   border: 4px solid yellow;
+   border-radius: 4px;
+   filter: brightness(100%);
+}
+
+/*
+   
+.score{
+   text-align: center;
+   font-size: 12px;
+}
+
+.foot{
+   text-align: center;
+   font-size: 12px;
+   font-weight: 100;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+*/
+
+
+
+
+
